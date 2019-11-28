@@ -1,18 +1,18 @@
 ## Welcome to Final Project CPSC331_621 Pages
 
-- เรื่องที่ฉันจะเล่า จะเป็นส่วนหนึ่งของ Final Project ของฉัน นั้นก็คือเรื่องของ การ include หรือ require และการใช้ Ajax โดย Javascript กันนะครับ โดยภายในนี้จะประกอบไปด้วยลิงค์ต่าง ๆ ที่จะลิงค์ไป เช่น ลิงค์ไปยัง Source code ของ Project และFree webhosting จำนวน 2 webhot ด้วยกัน
+  เรื่องที่ฉันจะเล่า จะเป็นส่วนหนึ่งของ Final Project ของฉัน นั้นก็คือเรื่องของ การ include หรือ require และการใช้ Ajax โดย Javascript กันนะครับ โดยภายในนี้จะประกอบไปด้วยลิงค์ต่าง ๆ ที่จะลิงค์ไป เช่น ลิงค์ไปยัง Source code ของ Project และFree webhosting จำนวน 2 webhot ด้วยกัน
 
 ### การ include หรือ require
 
-- สำหรับการใช้งานถ้าไฟล์ที่เราเรียกมาใช้งานนั้นไม่มีในระบบหรือมีข้อผิดพลาดในการทำงานจากไฟล์นั้น 
+  สำหรับการใช้งานถ้าไฟล์ที่เราเรียกมาใช้งานนั้นไม่มีในระบบหรือมีข้อผิดพลาดในการทำงานจากไฟล์นั้น 
 
-  -วิธี include จะแสดงเป็น Warning แต่ยังคงทำงานต่อไปจนจบโปรแกรม
+      วิธี include จะแสดงเป็น Warning แต่ยังคงทำงานต่อไปจนจบโปรแกรม
 
-  -วิธี require จะแสดงเป็น Fatal Error และหยุดการทำงานทันทีครับ
+      วิธี require จะแสดงเป็น Fatal Error และหยุดการทำงานทันทีครับ
 
 ### Ajax โดย Javascript
 
--Ajax (ย่อมาจาก Asynchronous JavaScript and XML) เป็นเทคนิคการเขียนโปรแกรมแบบนึง ไม่ใช่ภาษาโปรแกรมใหม่อย่างที่บางคนเข้าใจ
+  Ajax (ย่อมาจาก Asynchronous JavaScript and XML) เป็นเทคนิคการเขียนโปรแกรมแบบนึง ไม่ใช่ภาษาโปรแกรมใหม่อย่างที่บางคนเข้าใจ
 
 จากชื่อเต็มของมัน จะสังเกตว่ามีคีย์เวิร์ด 2 ตัวคือ
 
@@ -36,8 +36,8 @@
 สรุปก็คือ การโหลดแบบ Ajax ไม่ได้ช่วยอะไรเลยนอกจากทำให้ UX (ย่อมาจาก User experience หรือประสบการณ์ความประทับใจของผู้ใช้) รู้สึก Feel Goood! ขึ้นเท่านั้นเองเพราะตอนที่โหลดหน้าเพจใหม่นั้นหน้าเพจเดิมยังคาอยู่
 
 ### Source code
-#### [-Infinity](http://non005.epizy.com/sing_in.php)
+  #### [Infinity](http://non005.epizy.com/sing_in.php)
 
 ### และ Free webhosting 2 ตัว 
-#### [-000webhost](https://ducatith.000webhostapp.com/)
-#### [-Infinity](http://non005.epizy.com/sing_in.php)
+  #### [000webhost](https://ducatith.000webhostapp.com/)
+  #### [Infinity](http://non005.epizy.com/sing_in.php)

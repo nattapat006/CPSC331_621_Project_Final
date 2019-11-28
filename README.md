@@ -1,37 +1,35 @@
-## Welcome to GitHub Pages
+## Welcome to Final Project CPSC331_621 Pages
 
-You can use the [editor on GitHub](https://github.com/nattapat006/CPSC331_621_Project_Final/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
+เรื่องที่ฉันจะเล่า จะเป็นส่วนหนึ่งของ Final Project ของฉัน นั้นก็คือเรื่องของ การ include หรือ require และการใช้ Ajax โดย Javascript กันนะครับ โดยภายในนี้จะประกอบไปด้วยลิงค์ต่าง ๆ ที่จะลิงค์ไป เช่น ลิงค์ไปยัง Source code ของ Project และFree webhosting จำนวน 2 webhot ด้วยกัน
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+### การ include หรือ require
 
-### Markdown
+สำหรับการใช้งาน
+ถ้าไฟล์ที่เราเรียกมาใช้งานนั้นไม่มีในระบบหรือมีข้อผิดพลาดในการทำงานจากไฟล์นั้น 
+วิธี include จะแสดงเป็น Warning แต่ยังคงทำงานต่อไปจนจบโปรแกรม
+วิธี require จะแสดงเป็น Fatal Error และหยุดการทำงานทันทีครับ
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+### Ajax โดย Javascript
 
-```markdown
-Syntax highlighted code block
+Ajax (ย่อมาจาก Asynchronous JavaScript and XML) เป็นเทคนิคการเขียนโปรแกรมแบบนึง ไม่ใช่ภาษาโปรแกรมใหม่อย่างที่บางคนเข้าใจ
 
-# Header 1
-## Header 2
-### Header 3
+จากชื่อเต็มของมัน จะสังเกตว่ามีคีย์เวิร์ด 2 ตัวคือ
 
-- Bulleted
-- List
+- Asynchronous JavaScript
+- XML
+การใช้งานก็เช่น 
+1.ลองคิดว่าเรากำลังเล่นเว็บอยู่ แล้วเราอยากกดลิงค์ไปอ่านหน้าต่อไป จากหน้า 1 ไปหน้า 2
+2.แล้วขอลองเทียบ การที่เบราเซอร์สามารถแสดงผลเนื้อหาเว็บเป็นคนละกัน มีคน 2 คนกำลังยกป้าย (เว็บ) “เบอร์1” เอาไว้จากนั้นเราก็บอกได้เจ้าสองนายนี่ไปหยิบป้าย “เบอร์2” ซึ่งมันถูกเก็บอยู่ในบ้านที่ชื่อว่า Server มาให้หน่อย
+3.เจ้าคนแรกเมื่อได้ยินดังนั้น มันก็ทิ้งป้ายที่มันถืออยู่ทันทีเพื่อจะเดินกลับไปเอาป้ายเบอร์ถัดไปในบ้าน Server ในจังหวะนี้ เราจะไม่เห็น Content ของป้าย “เบอร์1” เพราะคนถือมันวิ่งไปโน่นแล้วกลับกัน สำหรับคนถือป้ายที่ใช้เทคนิค Ajax! (ถือป้ายก็ต้องมีเทคนิคนะ ฮา) ก็ได้เรียกผู้ช่วยมาอีกคนนึง แล้วเขาก็จะใช้เจ้าผู้ช่วยคนนี้ให้เดินไปเอาของให้หน่อย นั่นคือป้าย “เบอร์2” นั่นแหละนะ
+4.ถ้าคุณดูฝั่งที่เป็นแบบธรรมดา ตอนนี้ก็จะไม่เห็นอะไร (เทียบกับเว็บก็เป็นช่วงที่หน้าเพจกลายเป็นสีขาวในช่วงรอโหลด ซึ่งเราเรียกว่ามัน “กระพริบ” นั่นเอง) แต่สำหรับฝั่ง Ajax เราจะยังเห็นหน้าเพจเก่าอยู่ (จะขึ้นเป็นสัญลักษณ์ now loading กลมๆ หมุนๆ หรืออย่างไรก็ขึ้นก็การเขียนของเว็บ-โปรแกรมเมอร์เจ้านั้นแล้ว)
+5.แล้วทั้งสองคนก็กลับมา! กลับมาเร็วแค่ไหนก็ขึ้นกับความเร็วเน็ตของคุณนะๆ ลองดูในรูปดีๆ ว่าฝั่งของการโหลดแบบธรรมดานั่นจะถือกลับมาทั้งหน้าเลย กลับกับแบบ Ajax ที่เอากลับมาเฉพาะข้อมูลที่ต้องการก็พอ
+6.นายคนที่เดินกลับไปโหลดแบบธรมดากลับมาถึงปุ๊บก็ทำการชูป้ายขึ้น จังหวะนี้เราจะเห็นว่าเพจ “เบอร์2” ถูกโหลดเสร็จแล้วฝั่งนายที่เรียกใช้ผู้ช่วย เมื่อผู้ช่วยกลับมาถึง (ไม่รู้นะว่าจะกลับมาถึงเมื่อไหร่ แต่เมื่อกลับมาถึงเดี๋ยวผู้ช่วยก็จะส่งข้อมูลให้มันเอง) ก็ส่งข้อมูล Content ของหน้าเพจให้ เราก็จัดการลบ “1” ออกไปจากหน้า แล้วเอา “2” แทนที่ลงไปซะ ไม่ต้องเปลี่ยนทั้งเพจ “เบอร์1” ให้กลายเป็น “เบอร์2”
 
-1. Numbered
-2. List
+สรุปก็คือ การโหลดแบบ Ajax ไม่ได้ช่วยอะไรเลยนอกจากทำให้ UX (ย่อมาจาก User experience หรือประสบการณ์ความประทับใจของผู้ใช้) รู้สึก Feel Goood! ขึ้นเท่านั้นเองเพราะตอนที่โหลดหน้าเพจใหม่นั้นหน้าเพจเดิมยังคาอยู่
 
-**Bold** and _Italic_ and `Code` text
+### Source code
+#### [Infinity](http://non005.epizy.com/sing_in.php)
 
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/nattapat006/CPSC331_621_Project_Final/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+### และ Free webhosting 2 ตัว 
+#### [000webhost](https://ducatith.000webhostapp.com/)
+#### [Infinity](http://non005.epizy.com/sing_in.php)

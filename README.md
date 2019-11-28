@@ -6,9 +6,9 @@
 
 - สำหรับการใช้งานถ้าไฟล์ที่เราเรียกมาใช้งานนั้นไม่มีในระบบหรือมีข้อผิดพลาดในการทำงานจากไฟล์นั้น 
 
---วิธี include จะแสดงเป็น Warning แต่ยังคงทำงานต่อไปจนจบโปรแกรม
+  -วิธี include จะแสดงเป็น Warning แต่ยังคงทำงานต่อไปจนจบโปรแกรม
 
---วิธี require จะแสดงเป็น Fatal Error และหยุดการทำงานทันทีครับ
+  -วิธี require จะแสดงเป็น Fatal Error และหยุดการทำงานทันทีครับ
 
 ### Ajax โดย Javascript
 
@@ -16,8 +16,8 @@
 
 จากชื่อเต็มของมัน จะสังเกตว่ามีคีย์เวิร์ด 2 ตัวคือ
 
--- Asynchronous JavaScript
--- XML
+  - Asynchronous JavaScript
+  - XML
 
 การใช้งานก็เช่น 
 
@@ -36,8 +36,8 @@
 สรุปก็คือ การโหลดแบบ Ajax ไม่ได้ช่วยอะไรเลยนอกจากทำให้ UX (ย่อมาจาก User experience หรือประสบการณ์ความประทับใจของผู้ใช้) รู้สึก Feel Goood! ขึ้นเท่านั้นเองเพราะตอนที่โหลดหน้าเพจใหม่นั้นหน้าเพจเดิมยังคาอยู่
 
 ### Source code
-#### [--Infinity](http://non005.epizy.com/sing_in.php)
+#### [-Infinity](http://non005.epizy.com/sing_in.php)
 
 ### และ Free webhosting 2 ตัว 
-#### [--000webhost](https://ducatith.000webhostapp.com/)
-#### [--Infinity](http://non005.epizy.com/sing_in.php)
+#### [-000webhost](https://ducatith.000webhostapp.com/)
+#### [-Infinity](http://non005.epizy.com/sing_in.php)
